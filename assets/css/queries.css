@@ -1,0 +1,11 @@
+@media (max-width: 64rem ) {
+  body{
+    background-image: none;
+  }
+}
+
+@media (max-width: 28rem ) {
+  html{
+    font-size: 50%;
+  }
+}
