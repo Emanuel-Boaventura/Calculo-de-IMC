@@ -50,12 +50,12 @@
     <section class="calculo-imc">
       <h2>Calcule seu IMC:</h2>
 
-      <form class="calculo">
+      <form class="formulario">
         <label for="peso">Informe o Peso:</label>
-        <input placeholder="75" type="number" id="peso">
+        <input placeholder="75" type="number" step=".01" id="peso" required>
       
         <label for="altura">Informe a Altura:</label>
-        <input placeholder="1.80" type="number" step=".01" id="altura">
+        <input placeholder="1.80" type="number" step=".01" id="altura" required>
         
         <button type="submit" class="btn">Calcular</button>
       </form>
